@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "T1",
+      "setup": "",
+      "run": "python q2.py",
+      "input": "computer\r\npython\r\nc\r\nstop",
+      "output": "[computer, c]",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "T2",
+      "setup": "",
+      "run": "python q2.py",
+      "input": "Python\r\nC++\r\nSTOP",
+      "output": "[Python, C++]",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "T3",
+      "setup": "",
+      "run": "python q2.py",
+      "input": "aaa\r\nbbb\r\nccc\r\na\r\nzzzz\r\nSTOP",
+      "output": "[zzzz, a]",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}
