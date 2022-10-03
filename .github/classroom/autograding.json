@@ -24,7 +24,7 @@
       "name": "T3",
       "setup": "",
       "run": "python q2.py",
-      "input": "aaa\r\nbbb\r\nccc\r\na\r\nzzzz\r\nSTOP",
+      "input": "aaa\r\nbbb\r\nccc\r\naaaa\r\nzzzz\r\nSTOP",
       "output": "[zzzz, a]",
       "comparison": "regex",
       "timeout": 10,
