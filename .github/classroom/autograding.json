@@ -15,7 +15,7 @@
       "setup": "",
       "run": "python q2.py",
       "input": "Python\r\nC++\r\nSTOP",
-      "output": "[\\w,\\W]*Python[\\w,\\W]*C++[\\w,\\W]*",
+      "output": "[\\w,\\W]*Python[\\w,\\W]*C\\+\\+[\\w,\\W]*",
       "comparison": "regex",
       "timeout": 10,
       "points": 2
