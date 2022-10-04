@@ -5,7 +5,7 @@
       "setup": "",
       "run": "python q2.py",
       "input": "computer\r\npython\r\nc\r\nstop",
-      "output": "[computer, c]",
+      "output": "[\\w,\\W]*computer[\\w,\\W]*c[\\w,\\W]*",
       "comparison": "regex",
       "timeout": 10,
       "points": 2
@@ -15,7 +15,7 @@
       "setup": "",
       "run": "python q2.py",
       "input": "Python\r\nC++\r\nSTOP",
-      "output": "[Python, C++]",
+      "output": "[\\w,\\W]*Python[\\w,\\W]*C++[\\w,\\W]*",
       "comparison": "regex",
       "timeout": 10,
       "points": 2
@@ -25,7 +25,7 @@
       "setup": "",
       "run": "python q2.py",
       "input": "ccc\r\nbbb\r\naaa\r\naaaa\r\nzzzz\r\nSTOP",
-      "output": "[zzzz, aaa]",
+      "output": "[\\w,\\W]*zzzz[\\w,\\W]*aaa[\\w,\\W]*",
       "comparison": "regex",
       "timeout": 10,
       "points": 2
